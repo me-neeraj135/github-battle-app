@@ -1,0 +1,240 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "./reset.css";
+@import "./flex.css";
+@import "./global.css";
+
+/* custom-style */
+
+.dark {
+  background-color: #060d13;
+  color: #999999;
+}
+.current {
+  color: #ee8992;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0 1rem;
+  text-transform: capitalize;
+}
+
+/* header */
+
+header {
+  padding: 1rem 0;
+}
+.headerSpn {
+  font-size: 1rem;
+  font-weight: 900;
+  cursor: pointer;
+  letter-spacing: 0.2ch;
+}
+.popular {
+  margin-right: 1rem;
+  color: gray;
+
+  text-transform: uppercase;
+}
+.battle {
+  text-transform: uppercase;
+  color: gray;
+}
+
+/* Battle */
+
+p {
+  font-weight: 300;
+  text-transform: capitalize;
+  margin: 1rem 0;
+}
+.imgCnt {
+  height: 70%;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  background-color: #e4e6e7;
+}
+
+/* players */
+
+.inputCnt {
+  padding: 1rem;
+  margin: 1rem 0;
+  /* border: 1px solid; */
+}
+label {
+  display: block;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+input {
+  width: 68%;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+  border: 1px solid silver;
+  padding: 0.31rem 1rem;
+}
+input::placeholder {
+  font-weight: 100;
+  text-transform: capitalize;
+}
+.plyBtn {
+  width: 30%;
+  font-size: 1.3rem;
+  font-weight: 100;
+  cursor: pointer;
+  text-transform: capitalize;
+  border: 1px solid silver;
+}
+.actBtn {
+  width: 30%;
+  font-size: 1.3rem;
+  font-weight: 100;
+  cursor: pointer;
+  color: white;
+  text-transform: capitalize;
+  background-color: #000;
+}
+
+/* battle player */
+
+.chip {
+  display: inline-block;
+  padding: 0 35px;
+  height: 5rem;
+  font-size: 1.5rem;
+  line-height: 5rem;
+  border-radius: 9rem;
+  background-color: #cfcece;
+  margin-left: 10rem;
+  /* border: 1px solid; */
+}
+.chip span {
+  color: red;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -3.5rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.closeBtn {
+  padding-left: 10px;
+  color: #888;
+  font-weight: bold;
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  color: #000;
+}
+
+.userBtlBtn,
+.btlReset {
+  display: block;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 1rem auto;
+  padding: 0.2rem 4rem;
+  border-radius: 0.2rem;
+  border: 1px solid silver;
+  background-color: #000;
+  color: white;
+}
+/* popular */
+.menuLi {
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0 1rem;
+  text-transform: capitalize;
+}
+.cardUl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bgColor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cardUl > li {
+  margin: 0.5rem;
+  padding: 1rem 0.2rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 5px #49a0ac;
+  background-color: rgb(243, 242, 242);
+}
+
+.bgColor > li {
+  margin: 0.5rem;
+  padding: 1rem 0.2rem;
+  border-radius: 0.3rem;
+  color: white;
+  box-shadow: 0 0 5px #49a0ac;
+  background-color: #000f2770;
+}
+.bgColor a {
+  color: white;
+}
+
+.spnBx {
+  margin: 0.2rem 0;
+}
+.fa-user {
+  color: #f5be73;
+}
+.fa-star {
+  color: yellow;
+}
+.fa-code-fork {
+  color: #6ec3d8;
+}
+.fa-triangle-exclamation {
+  color: #ee8992;
+}
+
+.fa-sun {
+  color: yellow;
+}
+.fa-moon {
+  font-weight: 900;
+  color: #060d13;
+}
+/* user Battle */
+.stsBar {
+  font-size: 2rem;
+  font-weight: 700;
+  color: red;
+  text-align: center;
+}
+
+.userBalCnt > li {
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: rgb(245, 245, 245);
+}
+.userBalCnt > li > div {
+  margin: 0.4rem 0;
+}
+
+/* common */
+.fa-solid {
+  width: 2rem;
+  font-size: 1.5rem;
+}
+.active > span {
+  color: #ee8992;
+}
